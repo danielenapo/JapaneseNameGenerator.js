@@ -6,15 +6,18 @@ HOW TO USE:
 first, create a new JapaneseNameGenerator object with the construnctor
 ```JapaneseNameGenerator([minimumNumberOfSyllables], [maximumNumberOfSyllables])```
 
-(example)
-```minSyllables=3;
+EXAMPLE:
+```
+minSyllables=3;
 maxSyllable=7;
 nameGen= new JapaneseNameGenerator(minSyllable, maxSyllables);
 ```
 
 to generate the name, use the method
-```generateName()```
-(example)
+```generateName()```, that returns a string.
+
+EXAMPLE:
+
 ```
 name=nameGen.generateName()
 ```
